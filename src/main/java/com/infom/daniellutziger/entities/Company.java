@@ -5,8 +5,9 @@ import com.sun.istack.NotNull;
 import javax.persistence.*;
 
 //Superclass is not an entity -> hence no repository nor controller for this
-@MappedSuperclass
-public abstract class Company {
+@Entity
+@Inheritance(strategy=InheritanceType.JOINED)
+public class Company {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
