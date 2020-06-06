@@ -1,7 +1,12 @@
 package com.infom.daniellutziger.repositories;
 
 import com.infom.daniellutziger.entities.Company;
+import com.infom.daniellutziger.entities.Manufacturer;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import java.util.List;
 
 public interface CompanyRepository extends JpaRepository<Company, Long> {
 
@@ -13,4 +18,7 @@ AND om.manufacturers_id_company = m.id_company
 AND o.order_date > '2020-01-01'
 
      */
+
+    @Query(value="SELECT DISTINCT c.name FROM Company c JOIN ")
+    public List<String> getCompanyNames();
 }
