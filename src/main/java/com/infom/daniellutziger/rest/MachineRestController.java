@@ -1,8 +1,6 @@
 package com.infom.daniellutziger.rest;
 
-import com.infom.daniellutziger.entities.Company;
 import com.infom.daniellutziger.entities.Machine;
-import com.infom.daniellutziger.repositories.CompanyRepository;
 import com.infom.daniellutziger.repositories.MachineRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
