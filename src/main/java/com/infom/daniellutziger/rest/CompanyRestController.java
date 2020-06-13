@@ -19,11 +19,13 @@ public class CompanyRestController {
     @Autowired
     private CompanyRepository cr;
 
-    @GetMapping("/xnxx")
-    public List<String> getCompanyNames(){
-        String str="2018-03-31";
-        Date sff=Date.valueOf(str);
-        List<String> names = cr.getCompanyNameByManufacturerByOrderByOrderDate(sff);
+    @GetMapping("/byDate/{date}")
+    public List<String> getCompanyNames(@PathVariable String date){
+        //prefixed date
+        //String str="2018-03-31";
+        //http://localhost:8080/company/byDate/2020-03-31
+        Date generatedDate =Date.valueOf(date);
+        List<String> names = cr.getCompanyNameByManufacturerByOrderByOrderDate(generatedDate);
         return names;
     }
 
