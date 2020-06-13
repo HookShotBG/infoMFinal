@@ -8,10 +8,18 @@ import java.util.List;
 
 public interface ManufacturerRepository extends JpaRepository<Manufacturer, Long> {
 
-    //@Query(value="SELECT DISTINCT m from Manufacturer m join m.singleOrder odr where ")
-    //public List<String> asf();
+        /*
 
-    @Query(value="SELECT DISTINCT c.name FROM Company c JOIN Man")
-    public List<String> getCompanyNames();
+    SELECT c.name
+FROM company c, manufacturer m, ordertable o, ordertable_manufacturers om WHERE c.id_company = m.id_company
+AND om.manufacturers_id_company = m.id_company
+AND o.order_date > '2020-01-01'
 
+     */
+
+        /*
+    @Query(value="SELECT DISTINCT m.name from Manufacturer m join m.singleOrder odr where odr.idOrder = m.idCompany and odr.orderDate > '2020-01-01'")
+    public List<String> getCompanyName();
+
+*/
 }

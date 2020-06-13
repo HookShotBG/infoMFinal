@@ -1,6 +1,8 @@
 package com.infom.daniellutziger.entities;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
 import java.sql.Date;
@@ -8,6 +10,9 @@ import java.util.List;
 
 @Entity
 @Table(name="ordertable")
+@JsonIdentityInfo(
+        generator = ObjectIdGenerators.PropertyGenerator.class,
+        property = "id_order")
 public class Order {
 
     @Id
@@ -21,28 +26,30 @@ public class Order {
     //price of the order
     private double price;
 
-    @OneToMany
-    @JsonIgnore
-    private List<Manufacturer> manufacturers;
+    @ManyToOne
+    private Manufacturer manufacturer;
 
-    @OneToMany
-    @JsonIgnore
-    private List<Recipient> recipients;
+    @ManyToOne
+    private Recipient recipient;
 
     @ManyToMany
     @JsonIgnore
+    @JoinTable(
+            name = "order_machine",
+            joinColumns = @JoinColumn(name = "id_order"),
+            inverseJoinColumns = @JoinColumn(name = "id_machine"))
     private List<Machine> machines;
 
 
     public Order() {
     }
 
-    public Order(Date orderDate, String currency, double price, List<Manufacturer> manufacturers, List<Recipient> recipients, List<Machine> machines) {
+    public Order(Date orderDate, String currency, double price, Manufacturer manufacturer, Recipient recipient, List<Machine> machines) {
         this.orderDate = orderDate;
         this.currency = currency;
         this.price = price;
-        this.manufacturers = manufacturers;
-        this.recipients = recipients;
+        this.manufacturer = manufacturer;
+        this.recipient = recipient;
         this.machines = machines;
     }
 
@@ -70,22 +77,6 @@ public class Order {
         this.machines = machines;
     }
 
-    public List<Manufacturer> getManufacturers() {
-        return manufacturers;
-    }
-
-    public void setManufacturers(List<Manufacturer> manufacturers) {
-        this.manufacturers = manufacturers;
-    }
-
-    public List<Recipient> getRecipients() {
-        return recipients;
-    }
-
-    public void setRecipients(List<Recipient> recipients) {
-        this.recipients = recipients;
-    }
-
     public String getCurrency() {
         return currency;
     }
@@ -100,5 +91,21 @@ public class Order {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public Manufacturer getManufacturer() {
+        return manufacturer;
+    }
+
+    public void setManufacturer(Manufacturer manufacturer) {
+        this.manufacturer = manufacturer;
+    }
+
+    public Recipient getRecipient() {
+        return recipient;
+    }
+
+    public void setRecipient(Recipient recipient) {
+        this.recipient = recipient;
     }
 }

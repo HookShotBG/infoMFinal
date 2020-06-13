@@ -1,8 +1,10 @@
 package com.infom.daniellutziger.entities;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
+@PrimaryKeyJoinColumn(name = "id_manufacturer")
 public class Manufacturer extends Company{
 
     //the employee responsible for the product
@@ -11,8 +13,8 @@ public class Manufacturer extends Company{
     //what department the product comes from
     private String department;
 
-    @ManyToOne
-    private Order singleOrder;
+    @OneToMany(mappedBy = "manufacturer")
+    private List<Order> orders;
 
     public Manufacturer(){}
 
@@ -20,11 +22,11 @@ public class Manufacturer extends Company{
         super(name);
     }
 
-    public Manufacturer(String name, String contactEmployee, String department, Order singleOrder) {
+    public Manufacturer(String name, String contactEmployee, String department, List<Order> orders) {
         super(name);
         this.contactEmployee = contactEmployee;
         this.department = department;
-        this.singleOrder = singleOrder;
+        this.orders = orders;
     }
 
     public String getContactEmployee() {
@@ -43,12 +45,11 @@ public class Manufacturer extends Company{
         this.department = department;
     }
 
-    public Order getSingleOrder() {
-        return singleOrder;
+    public List<Order> getOrders() {
+        return orders;
     }
 
-    public void setSingleOrder(Order singleOrder) {
-        this.singleOrder = singleOrder;
+    public void setOrders(List<Order> orders) {
+        this.orders = orders;
     }
-
 }

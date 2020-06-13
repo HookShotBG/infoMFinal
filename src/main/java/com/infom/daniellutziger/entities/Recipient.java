@@ -1,15 +1,17 @@
 package com.infom.daniellutziger.entities;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
+@PrimaryKeyJoinColumn(name = "id_recipient")
 public class Recipient extends Company {
 
     //shipping address
     private String address;
 
-    @ManyToOne
-    private Order singleOrder;
+    @OneToMany(mappedBy = "recipient")
+    private List<Order> orders;
 
     public Recipient(){}
 
@@ -17,10 +19,10 @@ public class Recipient extends Company {
         super(name);
     }
 
-    public Recipient(String name, String address, Order singleOrder) {
+    public Recipient(String name, String address, List<Order> orders) {
         super(name);
         this.address = address;
-        this.singleOrder = singleOrder;
+        this.orders = orders;
     }
 
     public String getAddress() {
@@ -31,11 +33,11 @@ public class Recipient extends Company {
         this.address = address;
     }
 
-    public Order getSingleOrder() {
-        return singleOrder;
+    public List<Order> getOrders() {
+        return orders;
     }
 
-    public void setSingleOrder(Order singleOrder) {
-        this.singleOrder = singleOrder;
+    public void setOrders(List<Order> orders) {
+        this.orders = orders;
     }
 }

@@ -1,5 +1,7 @@
 package com.infom.daniellutziger.entities;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import com.sun.istack.NotNull;
 
 import javax.persistence.*;
@@ -7,6 +9,9 @@ import javax.persistence.*;
 //Superclass is not an entity -> hence no repository nor controller for this
 @Entity
 @Inheritance(strategy=InheritanceType.JOINED)
+@JsonIdentityInfo(
+        generator = ObjectIdGenerators.PropertyGenerator.class,
+        property = "id_company")
 public class Company {
 
     @Id

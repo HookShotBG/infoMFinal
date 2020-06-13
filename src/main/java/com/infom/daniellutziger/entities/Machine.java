@@ -16,7 +16,7 @@ public class Machine {
 
     private String kuerzel;
 
-    @ManyToMany
+    @ManyToMany(mappedBy = "machines")
     private List<Order> orders;
 
     public Machine(){}
