@@ -27,7 +27,7 @@ public class CompanyRestController {
         //String str="2018-03-31";
         //http://localhost:8080/company/byDate/2020-03-31
         Date generatedDate =Date.valueOf(date);
-        List<String> names = cr.getCompanyNameByManufacturerByOrderByOrderDate(generatedDate);
+        List<String> names = cr.getOnlyCompanyNameByManufacturerIdAndOrderDate(generatedDate);
 
         if (names != null && !names.isEmpty()) {
             return new ResponseEntity<List<String>>(names, HttpStatus.OK);

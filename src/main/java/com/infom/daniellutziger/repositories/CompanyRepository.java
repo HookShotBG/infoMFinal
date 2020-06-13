@@ -11,6 +11,6 @@ import java.util.List;
 
 public interface CompanyRepository extends JpaRepository<Company, Long> {
     @Query("SELECT c.name FROM Company c, Manufacturer m, Order o WHERE c.idCompany = m.idCompany AND m.idCompany = o.manufacturer AND o.orderDate = ?1")
-    List<String> getCompanyNameByManufacturerByOrderByOrderDate(Date date);
+    List<String> getOnlyCompanyNameByManufacturerIdAndOrderDate(Date date);
 
 }
