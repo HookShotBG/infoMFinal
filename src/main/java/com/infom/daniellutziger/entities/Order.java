@@ -13,7 +13,7 @@ import java.util.List;
 @Table(name="ordertable")
 @JsonIdentityInfo(
         generator = ObjectIdGenerators.PropertyGenerator.class,
-        property = "id_order")
+        property = "idOrder")
 public class Order {
 
     @Id
@@ -37,7 +37,6 @@ public class Order {
     private Recipient recipient;
 
     @ManyToMany
-    @JsonIgnore
     @JoinTable(
             name = "order_machine",
             joinColumns = @JoinColumn(name = "id_order"),

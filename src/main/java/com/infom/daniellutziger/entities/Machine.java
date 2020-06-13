@@ -1,11 +1,17 @@
 package com.infom.daniellutziger.entities;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import com.sun.istack.NotNull;
 
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@JsonIdentityInfo(
+        generator = ObjectIdGenerators.PropertyGenerator.class,
+        property = "idMachine")
 public class Machine {
 
     @Id
@@ -19,6 +25,7 @@ public class Machine {
     private String kuerzel;
 
     @ManyToMany(mappedBy = "machines")
+    @JsonIgnore
     private List<Order> orders;
 
     public Machine(){}

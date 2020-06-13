@@ -11,7 +11,7 @@ import javax.persistence.*;
 @Inheritance(strategy=InheritanceType.JOINED)
 @JsonIdentityInfo(
         generator = ObjectIdGenerators.PropertyGenerator.class,
-        property = "id_company")
+        property = "idCompany")
 public class Company {
 
     @Id

@@ -1,5 +1,6 @@
 package com.infom.daniellutziger.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.sun.istack.NotNull;
 
 import javax.persistence.*;
@@ -14,6 +15,7 @@ public class Recipient extends Company {
     private String address;
 
     @OneToMany(mappedBy = "recipient")
+    @JsonIgnore
     private List<Order> orders;
 
     public Recipient(){}
