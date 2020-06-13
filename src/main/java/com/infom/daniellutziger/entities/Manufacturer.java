@@ -1,5 +1,7 @@
 package com.infom.daniellutziger.entities;
 
+import com.sun.istack.NotNull;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -11,6 +13,7 @@ public class Manufacturer extends Company{
     private String contactEmployee;
 
     //what department the product comes from
+    @NotNull
     private String department;
 
     @OneToMany(mappedBy = "manufacturer")

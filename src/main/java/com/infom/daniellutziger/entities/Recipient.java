@@ -1,5 +1,7 @@
 package com.infom.daniellutziger.entities;
 
+import com.sun.istack.NotNull;
+
 import javax.persistence.*;
 import java.util.List;
 
@@ -8,6 +10,7 @@ import java.util.List;
 public class Recipient extends Company {
 
     //shipping address
+    @NotNull
     private String address;
 
     @OneToMany(mappedBy = "recipient")

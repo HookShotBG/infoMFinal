@@ -23,8 +23,8 @@ AND o.order_date > '2020-01-01'
     //@Query(value="SELECT DISTINCT c.name FROM Company c JOIN ")
     //public List<String> getCompanyNames();
 
-    /*
-    @Query("SELECT c.name FROM Company c, Manufacturer m, Order o WHERE c.idCompany = m.idCompany AND m.idCompany = o.manufacturers AND o.date = ?1")
-    List<String> getCompanyNameByManufacturerByOrderByOrderDate(Date date);*/
+
+    @Query("SELECT c.name FROM Company c, Manufacturer m, Order o WHERE c.idCompany = m.idCompany AND m.idCompany = o.manufacturer AND o.orderDate = ?1")
+    List<String> getCompanyNameByManufacturerByOrderByOrderDate(Date date);
 
 }

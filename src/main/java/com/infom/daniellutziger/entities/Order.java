@@ -3,6 +3,7 @@ package com.infom.daniellutziger.entities;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+import com.sun.istack.NotNull;
 
 import javax.persistence.*;
 import java.sql.Date;
@@ -19,11 +20,14 @@ public class Order {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long idOrder;
 
+    @NotNull
     private Date orderDate;
 
     //currency in which the order had been made
+    @NotNull
     private String currency;
     //price of the order
+    @NotNull
     private double price;
 
     @ManyToOne
