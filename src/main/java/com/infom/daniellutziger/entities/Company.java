@@ -9,7 +9,6 @@ import javax.persistence.*;
 //Superclass is not an entity -> hence no repository nor controller for this
 @Entity
 @Inheritance(strategy=InheritanceType.JOINED)
-@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "idCompany")
 public class Company {
 
     @Id

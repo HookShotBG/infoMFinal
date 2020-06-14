@@ -10,7 +10,6 @@ import java.util.List;
 
 @Entity
 @Table(name="ordertable")
-@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "idOrder")
 public class Order {
 
     @Id
