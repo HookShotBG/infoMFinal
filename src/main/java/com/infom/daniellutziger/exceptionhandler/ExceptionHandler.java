@@ -29,7 +29,7 @@ public class ExceptionHandler implements ErrorController {
                 return "405";
             }
         }
-        return "errorhandling/error";
+        return "error";
     }
 
     @Override
