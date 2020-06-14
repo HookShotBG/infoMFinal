@@ -1,10 +1,8 @@
 package com.infom.daniellutziger.repositories;
 
 import com.infom.daniellutziger.entities.Company;
-import com.infom.daniellutziger.entities.Manufacturer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import java.sql.Date;
 import java.util.List;

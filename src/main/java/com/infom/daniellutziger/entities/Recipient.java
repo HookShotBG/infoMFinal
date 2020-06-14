@@ -7,7 +7,6 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
-@PrimaryKeyJoinColumn(name = "id_recipient")
 public class Recipient extends Company {
 
     //shipping address
@@ -20,12 +19,12 @@ public class Recipient extends Company {
 
     public Recipient(){}
 
-    public Recipient(String name) {
-        super(name);
+    public Recipient(String name, String sector) {
+        super(name, sector);
     }
 
-    public Recipient(String name, String address, List<Order> orders) {
-        super(name);
+    public Recipient(String name, String sector, String address, List<Order> orders) {
+        super(name, sector);
         this.address = address;
         this.orders = orders;
     }

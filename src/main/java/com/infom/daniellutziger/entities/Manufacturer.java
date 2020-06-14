@@ -7,7 +7,6 @@ import javax.persistence.*;
 import java.util.List;
 
 @Entity
-@PrimaryKeyJoinColumn(name = "id_manufacturer")
 public class Manufacturer extends Company{
 
     //the employee responsible for the product
@@ -23,12 +22,12 @@ public class Manufacturer extends Company{
 
     public Manufacturer(){}
 
-    public Manufacturer(String name) {
-        super(name);
+    public Manufacturer(String name, String sector) {
+        super(name, sector);
     }
 
-    public Manufacturer(String name, String contactEmployee, String department, List<Order> orders) {
-        super(name);
+    public Manufacturer(String name, String sector, String contactEmployee, String department, List<Order> orders) {
+        super(name, sector);
         this.contactEmployee = contactEmployee;
         this.department = department;
         this.orders = orders;

@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="projectX.xsl"?>
+<DATA>
+
+	<ROW>
+		<id_company>1</id_company>
+		<name>Feeney Group</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>2</id_company>
+		<name>Toy and Sons</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>3</id_company>
+		<name>Klocko-Schoen</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>4</id_company>
+		<name>Jenkins, Witting and Wiegand</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>5</id_company>
+		<name>Abbott Inc</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>6</id_company>
+		<name>Kunde-Schuster</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>7</id_company>
+		<name>Lakin, Feil and Lowe</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>8</id_company>
+		<name>Gleason-Mertz</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>9</id_company>
+		<name>Gleason, Cruickshank and Abernathy</name>
+		<sector>Public Utilities</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>10</id_company>
+		<name>Murray, Wyman and Davis</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>11</id_company>
+		<name>Bahringer, Hudson and Ferry</name>
+		<sector>Basic Industries</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>12</id_company>
+		<name>Price-Frami</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>13</id_company>
+		<name>Gottlieb Group</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>14</id_company>
+		<name>Ryan LLC</name>
+		<sector>Public Utilities</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>15</id_company>
+		<name>Lowe Inc</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>16</id_company>
+		<name>Nitzsche Inc</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>17</id_company>
+		<name>Durgan-Feeney</name>
+		<sector>Capital Goods</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>18</id_company>
+		<name>Hahn-Rowe</name>
+		<sector>Basic Industries</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>19</id_company>
+		<name>Osinski, Lemke and Hamill</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>20</id_company>
+		<name>Beier, Fadel and Cole</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>21</id_company>
+		<name>Hoppe-Barrows</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>22</id_company>
+		<name>Moore Group</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>23</id_company>
+		<name>Bayer-McGlynn</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>24</id_company>
+		<name>Hammes LLC</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>25</id_company>
+		<name>Powlowski LLC</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>26</id_company>
+		<name>Gorczany, D'Amore and Schimmel</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>27</id_company>
+		<name>Kunze, Blick and Roberts</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>28</id_company>
+		<name>Metz, Reichert and Will</name>
+		<sector>Basic Industries</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>29</id_company>
+		<name>Roberts, Harvey and Bruen</name>
+		<sector>Public Utilities</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>30</id_company>
+		<name>Satterfield, Hermann and Okuneva</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>31</id_company>
+		<name>Hoppe, Cummerata and West</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>32</id_company>
+		<name>Johns-Feest</name>
+		<sector>Consumer Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>33</id_company>
+		<name>Senger, Christiansen and Veum</name>
+		<sector>Consumer Non-Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>34</id_company>
+		<name>Bins-Schimmel</name>
+		<sector>Consumer Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>35</id_company>
+		<name>Stanton, O'Keefe and Baumbach</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>36</id_company>
+		<name>Skiles, Treutel and Hirthe</name>
+		<sector>Energy</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>37</id_company>
+		<name>Hoppe Inc</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>38</id_company>
+		<name>Kuhic, Homenick and Nitzsche</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>39</id_company>
+		<name>Gorczany and Sons</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>40</id_company>
+		<name>Herzog Inc</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>41</id_company>
+		<name>Boyle-Hodkiewicz</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>42</id_company>
+		<name>Howell, Moore and Macejkovic</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>43</id_company>
+		<name>Muller-Hammes</name>
+		<sector>Basic Industries</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>44</id_company>
+		<name>Marvin and Sons</name>
+		<sector>Energy</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>45</id_company>
+		<name>Kihn, Graham and Stoltenberg</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>46</id_company>
+		<name>Zemlak Group</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>47</id_company>
+		<name>Yundt, Doyle and Hintz</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>48</id_company>
+		<name>Bauch-Weimann</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>49</id_company>
+		<name>Stehr Inc</name>
+		<sector>Consumer Non-Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>50</id_company>
+		<name>Nikolaus, Gerlach and Lowe</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>51</id_company>
+		<name>Pfannerstill-Morissette</name>
+		<sector>Basic Industries</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>52</id_company>
+		<name>Runte Group</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>53</id_company>
+		<name>Hamill, Zemlak and Gusikowski</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>54</id_company>
+		<name>Wiegand, Homenick and Crooks</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>55</id_company>
+		<name>Willms and Sons</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>56</id_company>
+		<name>Jacobi and Sons</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>57</id_company>
+		<name>Balistreri-McDermott</name>
+		<sector>Capital Goods</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>58</id_company>
+		<name>Dietrich-Hoeger</name>
+		<sector>Transportation</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>59</id_company>
+		<name>Bins Inc</name>
+		<sector>Consumer Non-Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>60</id_company>
+		<name>Medhurst, Langosh and Koss</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>61</id_company>
+		<name>Schuster-Monahan</name>
+		<sector>Public Utilities</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>62</id_company>
+		<name>Runte and Sons</name>
+		<sector>Energy</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>63</id_company>
+		<name>Windler LLC</name>
+		<sector>Capital Goods</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>64</id_company>
+		<name>Barton Inc</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>65</id_company>
+		<name>Emard LLC</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>66</id_company>
+		<name>Kub LLC</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>67</id_company>
+		<name>Zieme-Marvin</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>68</id_company>
+		<name>Heidenreich LLC</name>
+		<sector>Basic Industries</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>69</id_company>
+		<name>Labadie, Hayes and Swift</name>
+		<sector>Basic Industries</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>70</id_company>
+		<name>Lubowitz, Lubowitz and Trantow</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>71</id_company>
+		<name>Tromp-Howell</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>72</id_company>
+		<name>Dach-Hansen</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>73</id_company>
+		<name>Green-Kovacek</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>74</id_company>
+		<name>Doyle Inc</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>75</id_company>
+		<name>Frami, Morissette and Price</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>76</id_company>
+		<name>Stiedemann-Dach</name>
+		<sector>Consumer Non-Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>77</id_company>
+		<name>Lemke-Ledner</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>78</id_company>
+		<name>Davis Group</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>79</id_company>
+		<name>Bosco-Brekke</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>80</id_company>
+		<name>Wunsch, Hyatt and Thompson</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>81</id_company>
+		<name>Wunsch Group</name>
+		<sector>Consumer Non-Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>82</id_company>
+		<name>Lang-Beahan</name>
+		<sector>Capital Goods</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>83</id_company>
+		<name>Hilpert LLC</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>84</id_company>
+		<name>Hirthe, Leffler and Schaden</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>85</id_company>
+		<name>Balistreri and Sons</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>86</id_company>
+		<name>Parisian-Kohler</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>87</id_company>
+		<name>Howell-Kutch</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>88</id_company>
+		<name>Dickinson Group</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>89</id_company>
+		<name>Gaylord and Sons</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>90</id_company>
+		<name>Spinka-Roberts</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>91</id_company>
+		<name>Hickle, Auer and Schmidt</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>92</id_company>
+		<name>Bergstrom Inc</name>
+		<sector>Consumer Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>93</id_company>
+		<name>Altenwerth, Goodwin and Luettgen</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>94</id_company>
+		<name>Medhurst-Heller</name>
+		<sector>Consumer Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>95</id_company>
+		<name>Vandervort LLC</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>96</id_company>
+		<name>Swift, Block and McLaughlin</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>97</id_company>
+		<name>Lubowitz Group</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>98</id_company>
+		<name>Dickinson-Upton</name>
+		<sector>Basic Industries</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>99</id_company>
+		<name>Tremblay LLC</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>100</id_company>
+		<name>Klocko Group</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>101</id_company>
+		<name>Beer LLC</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>102</id_company>
+		<name>Schaden Group</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>103</id_company>
+		<name>Klocko-Cassin</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>104</id_company>
+		<name>Rowe LLC</name>
+		<sector>Capital Goods</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>105</id_company>
+		<name>Jenkins-Stiedemann</name>
+		<sector>Public Utilities</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>106</id_company>
+		<name>Treutel-Gislason</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>107</id_company>
+		<name>Cartwright-Baumbach</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>108</id_company>
+		<name>Quigley-Jast</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>109</id_company>
+		<name>Price, Torphy and Johns</name>
+		<sector>Public Utilities</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>110</id_company>
+		<name>Veum, Daniel and Gorczany</name>
+		<sector>Consumer Non-Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>111</id_company>
+		<name>Cole-Mann</name>
+		<sector>Public Utilities</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>112</id_company>
+		<name>Bashirian, Connelly and McLaughlin</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>113</id_company>
+		<name>Hauck-Kutch</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>114</id_company>
+		<name>Witting, Schamberger and Gerlach</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>115</id_company>
+		<name>Anderson LLC</name>
+		<sector>Energy</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>116</id_company>
+		<name>Mraz, Waters and Olson</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>117</id_company>
+		<name>Fritsch, Weissnat and Kiehn</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>118</id_company>
+		<name>Upton, Hodkiewicz and Durgan</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>119</id_company>
+		<name>Lesch and Sons</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>120</id_company>
+		<name>Mueller-Schroeder</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>121</id_company>
+		<name>Mueller Inc</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>122</id_company>
+		<name>Windler, Bahringer and Koepp</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>123</id_company>
+		<name>Bartell LLC</name>
+		<sector>Capital Goods</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>124</id_company>
+		<name>Grady, VonRueden and Fahey</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>125</id_company>
+		<name>Champlin, Schoen and Hirthe</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>126</id_company>
+		<name>Gleason-Strosin</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>127</id_company>
+		<name>Lockman-Konopelski</name>
+		<sector>Public Utilities</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>128</id_company>
+		<name>Jerde Inc</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>129</id_company>
+		<name>Pollich-Kovacek</name>
+		<sector>Consumer Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>130</id_company>
+		<name>VonRueden and Sons</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>131</id_company>
+		<name>Buckridge and Sons</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>132</id_company>
+		<name>Rath-Larkin</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>133</id_company>
+		<name>Batz LLC</name>
+		<sector>Consumer Non-Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>134</id_company>
+		<name>Sporer-Nikolaus</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>135</id_company>
+		<name>Friesen, Cassin and Stracke</name>
+		<sector>Miscellaneous</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>136</id_company>
+		<name>Emmerich, Weissnat and Gaylord</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>137</id_company>
+		<name>Ebert, Skiles and Rath</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>138</id_company>
+		<name>Goodwin and Sons</name>
+		<sector>Miscellaneous</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>139</id_company>
+		<name>Heaney LLC</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>140</id_company>
+		<name>Dicki-Lind</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>141</id_company>
+		<name>Prohaska, Bashirian and Mohr</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>142</id_company>
+		<name>Tromp-Schmitt</name>
+		<sector>Energy</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>143</id_company>
+		<name>Dicki-McCullough</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>144</id_company>
+		<name>Anderson Group</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>145</id_company>
+		<name>Kilback, Gusikowski and Robel</name>
+		<sector>Consumer Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>146</id_company>
+		<name>Nicolas LLC</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>147</id_company>
+		<name>Bashirian-Larkin</name>
+		<sector>Capital Goods</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>148</id_company>
+		<name>Bruen, Steuber and Heidenreich</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>149</id_company>
+		<name>Hilpert, Mosciski and Volkman</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>150</id_company>
+		<name>DuBuque-Bashirian</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>151</id_company>
+		<name>Bradtke-Walsh</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>152</id_company>
+		<name>Ernser, Hermiston and Senger</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>153</id_company>
+		<name>Walsh and Sons</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>154</id_company>
+		<name>Grady-Konopelski</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>155</id_company>
+		<name>Parisian-Casper</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>156</id_company>
+		<name>Metz-Weimann</name>
+		<sector>Energy</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>157</id_company>
+		<name>Bechtelar, Blick and Beier</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>158</id_company>
+		<name>Johns-Mayer</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>159</id_company>
+		<name>Farrell, Lebsack and Rosenbaum</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>160</id_company>
+		<name>Emard, Hirthe and Labadie</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>161</id_company>
+		<name>Mante-Lowe</name>
+		<sector>Energy</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>162</id_company>
+		<name>Dickinson Group</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>163</id_company>
+		<name>Ritchie-Grady</name>
+		<sector>Public Utilities</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>164</id_company>
+		<name>Halvorson, Ratke and Beatty</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>165</id_company>
+		<name>Reichert-Simonis</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>166</id_company>
+		<name>Collins Group</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>167</id_company>
+		<name>Gerhold, Macejkovic and Hudson</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>168</id_company>
+		<name>Orn-Tillman</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>169</id_company>
+		<name>Greenholt and Sons</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>170</id_company>
+		<name>Lakin LLC</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>171</id_company>
+		<name>Kris LLC</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>172</id_company>
+		<name>Harris, Smith and Ortiz</name>
+		<sector>Capital Goods</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>173</id_company>
+		<name>Stokes and Sons</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>174</id_company>
+		<name>Reynolds LLC</name>
+		<sector>Consumer Non-Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>175</id_company>
+		<name>Sauer, Rempel and Schuster</name>
+		<sector>Technology</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>176</id_company>
+		<name>Stiedemann, Turner and Reichel</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>177</id_company>
+		<name>Kutch and Sons</name>
+		<sector>Consumer Non-Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>178</id_company>
+		<name>Nicolas-Okuneva</name>
+		<sector>Capital Goods</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>179</id_company>
+		<name>Bernier-Trantow</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>180</id_company>
+		<name>Gusikowski, Beatty and Powlowski</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>181</id_company>
+		<name>Lakin, Zboncak and Parker</name>
+		<sector>Public Utilities</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>182</id_company>
+		<name>Rutherford, Dietrich and Schimmel</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>183</id_company>
+		<name>Runolfsson-Stoltenberg</name>
+		<sector>Public Utilities</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>184</id_company>
+		<name>McKenzie LLC</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>185</id_company>
+		<name>Tromp, Nolan and DuBuque</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>186</id_company>
+		<name>Marks, Franecki and Witting</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>187</id_company>
+		<name>Bayer and Sons</name>
+		<sector>Public Utilities</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>188</id_company>
+		<name>Ward Group</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>189</id_company>
+		<name>Hyatt LLC</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>190</id_company>
+		<name>Kozey, Nikolaus and Hills</name>
+		<sector>Energy</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>191</id_company>
+		<name>Jacobs-Fisher</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>192</id_company>
+		<name>Herman-Considine</name>
+		<sector>Consumer Services</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>193</id_company>
+		<name>Rodriguez, Bahringer and Berge</name>
+		<sector>Consumer Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>194</id_company>
+		<name>Rempel-Veum</name>
+		<sector>Energy</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>195</id_company>
+		<name>Heidenreich Inc</name>
+		<sector>Finance</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>196</id_company>
+		<name>Braun LLC</name>
+		<sector>Consumer Non-Durables</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>197</id_company>
+		<name>Kuhn Group</name>
+		<sector>Health Care</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>198</id_company>
+		<name>Reichert, Roberts and Rempel</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>199</id_company>
+		<name>D'Amore-Boyle</name>
+		<sector>n/a</sector>
+	</ROW>
+
+	<ROW>
+		<id_company>200</id_company>
+		<name>Hahn and Sons</name>
+		<sector>n/a</sector>
+	</ROW>
+</DATA>

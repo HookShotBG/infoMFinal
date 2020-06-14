@@ -1,7 +1,6 @@
 package com.infom.daniellutziger.entities;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import com.sun.istack.NotNull;
 
@@ -35,10 +34,7 @@ public class Order {
     private Recipient recipient;
 
     @ManyToMany
-    @JoinTable(
-            name = "order_machine",
-            joinColumns = @JoinColumn(name = "id_order"),
-            inverseJoinColumns = @JoinColumn(name = "id_machine"))
+    @JoinTable(name = "order_machine", joinColumns = @JoinColumn(name = "id_order"), inverseJoinColumns = @JoinColumn(name = "id_machine"))
     private List<Machine> machines;
 
 

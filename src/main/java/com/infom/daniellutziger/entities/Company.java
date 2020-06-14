@@ -20,10 +20,13 @@ public class Company {
     @NotNull
     public String name;
 
+    @NotNull
+    public String sector;
+
 
     public Company(){}
 
-    public Company(String name) {
+    public Company(String name, String sector) {
         this.name = name;
     }
 
@@ -41,5 +44,13 @@ public class Company {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getSector() {
+        return sector;
+    }
+
+    public void setSector(String sector) {
+        this.sector = sector;
     }
 }
